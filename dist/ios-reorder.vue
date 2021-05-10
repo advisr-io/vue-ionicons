@@ -5,14 +5,14 @@
     :class="ionClass"
     :data-title="iconTitle"
     data-name="ios-reorder-icon">
-    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zM80 248h352v16H80zM80 192h352v16H80z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zm0-56h352v16H80zm0-56h352v16H80z"/></svg>
   </div>
   <div
     v-else
     class="ion"
     :class="ionClass"
     name="ios-reorder-icon">
-    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zM80 248h352v16H80zM80 192h352v16H80z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zm0-56h352v16H80zm0-56h352v16H80z"/></svg>
   </div>
 </template>
 

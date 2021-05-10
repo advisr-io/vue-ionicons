@@ -5,14 +5,14 @@
     :class="ionClass"
     :data-title="iconTitle"
     data-name="md-information-icon">
-    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M232 235h48v137h-48zM232 140h48v48h-48z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M232 235h48v137h-48zm0-95h48v48h-48z"/></svg>
   </div>
   <div
     v-else
     class="ion"
     :class="ionClass"
     name="md-information-icon">
-    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M232 235h48v137h-48zM232 140h48v48h-48z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M232 235h48v137h-48zm0-95h48v48h-48z"/></svg>
   </div>
 </template>
 
